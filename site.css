@@ -45,7 +45,7 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 980px;
+  width: 750px;
   height: 90px;
 }
 
@@ -119,7 +119,7 @@ a.nav_last {
 }
 
 #body {
-  width: 980px;
+  width: 750px;
   height: auto;
   position: relative;
   margin-top: 0px;
