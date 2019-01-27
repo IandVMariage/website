@@ -10,6 +10,7 @@
     <!-- bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.css" rel="stylesheet"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <!-- style -->
     <link rel="stylesheet" href="site.css">
@@ -36,9 +37,20 @@
           &Agrave; la mairie de Huningue<br>&amp;<br>au château du Morimont
         </p>
         <p style="font-family: 'Quicksand', sans-serif; font-size: 16px; text-align: center; letter-spacing: 0.15em">
-          <b style="border: 2px solid #b09259; padding: 5px">Plus d'information</b>
-          <b style="border: 2px solid #b09259; padding: 5px">Nous contacter</b>
+          <button type="button" data-toggle="modal" data-target="#notReady">Plus d'information</button>
+          <button type="button">Nous contacter</button>
         </p>
+
+        <!-- Not-Ready modal images -->
+        <div id="notReady" class="modal fade" role="dialog">
+          <div class="modal-dialog" style="vertical-align: middle;">
+            <div class="modal-content">
+              <div class="modal-body">
+                <center><img src="images/not-ready.gif" class="img-responsive"></center>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
