@@ -571,6 +571,11 @@ iframe.soundcloud {
   vertical-align: middle;
 }
 
+.modal-body {
+  background-color: #ceab48;
+  padding: 7px;
+}
+
 button {
   border: 2px solid #b09259;
   padding: 5px;
